@@ -31,6 +31,11 @@ handoffs:
    - timebox
    - success signals (qualitative + quantitative)
    - risks / trade-offs
+   - When designing experiments you take into account the following Theory U flow and apply whatever questions seem meaningful in the corresponding context:
+      - Listening to the system: What problem are we trying to solve? Why is it important? What is holding us back? Which untested assumptions are we holding? What excites and concerns us about the problem?
+      - Challenging assumptions: What did we try in the past? What worked / did not work well? If we let limitations aside, what would become possible? How could we re-imagine this? What would be a crazy idea?
+      - Emergence: What can we already build on? What do we still need to clarify? Which outputs do we need to establish?
+      - Purposeful action: Who will work on what? How do we hold each other accountable? How to we track progress and success?
 4. Recommend the **smallest safe experiment** that still yields learning.
 
 # Output format
