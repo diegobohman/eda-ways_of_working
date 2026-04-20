@@ -1,0 +1,20 @@
+{
+  "github.copilot.agents": [
+    {
+      "name": "WoW Architect",
+      "file": ".github/agents/architect.agent.md"
+    },
+    {
+      "name": "WoW Engineer",
+      "file": ".github/agents/engineer.agent.md"
+    },
+    {
+      "name": "WoW Project Manager",
+      "file": ".github/agents/project-manager.agent.md"
+    },
+    {
+      "name": "WoW Reviewer",
+      "file": ".github/agents/reviewer.agent.md"
+    }
+  ]
+}
