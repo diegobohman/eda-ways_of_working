@@ -28,4 +28,10 @@ handoffs:
    - **Stop** (not worth it; archive rationale)
 3. Recommend label changes:
    - status + prio + handled-by
-4. Produce a
+4. Produce a short “So what?” statement for stakeholders.
+
+# Output format
+- Findings (what seems true / uncertain)
+- Recommendation (iterate/stabilize/stop)
+- Label updates
+- Comment-ready next handoff

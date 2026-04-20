@@ -35,4 +35,3 @@ handoffs:
 - **Top priorities** (with rationale)
 - **Milestones** (name, intent, exit criteria)
 - **Next handoffs** (explicit comment text to paste into the issue)
-``
