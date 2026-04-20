@@ -1,0 +1,186 @@
+labels:
+  #
+  # A) Type / intent
+  #
+  - name: wow:tension
+    color: "6A5ACD"
+    description: "Ways of Working tension (default entry point)"
+
+  - name: wow:experiment
+    color: "5C9DED"
+    description: "Experiment to test or validate a WoW change"
+
+  - name: wow:decision
+    color: "8B5CF6"
+    description: "Decision required or decision captured"
+
+  - name: wow:doc-change
+    color: "0EA5A5"
+    description: "Documentation-only change"
+
+  - name: wow:question
+    color: "94A3B8"
+    description: "Question (prefer Discussions when possible)"
+
+  #
+  # B) Area (mirrors issue form dropdown)
+  #
+  - name: area:decision-making
+    color: "1D76DB"
+    description: "Decision-making and governance"
+
+  - name: area:prioritization
+    color: "1D76DB"
+    description: "Prioritization and sequencing"
+
+  - name: area:strategy-outcomes
+    color: "1D76DB"
+    description: "Strategy alignment and outcomes"
+
+  - name: area:tracking-adjustment
+    color: "1D76DB"
+    description: "Tracking, review, and adjustment"
+
+  - name: area:meetings-cadence
+    color: "1D76DB"
+    description: "Meetings and cadence"
+
+  - name: area:roles-raci
+    color: "1D76DB"
+    description: "Roles, responsibilities, and RACI"
+
+  - name: area:kpi-measurement
+    color: "1D76DB"
+    description: "KPIs, metrics, and measurement"
+
+  - name: area:cross-team-collab
+    color: "1D76DB"
+    description: "Cross-team collaboration"
+
+  - name: area:tooling-docs
+    color: "1D76DB"
+    description: "Tooling, documentation, and enablement"
+
+  - name: area:other
+    color: "1D76DB"
+    description: "Other or uncategorized area"
+
+  #
+  # C) DSO principle lens (optional)
+  #
+  - name: dso:focus-on-outcomes
+    color: "F97316"
+    description: "DSO principle: Focus on outcomes"
+
+  - name: dso:collaborate-network-teams
+    color: "F97316"
+    description: "DSO principle: Collaborate across networked teams"
+
+  - name: dso:co-create-through-reimagination
+    color: "F97316"
+    description: "DSO principle: Co-create through re-imagination"
+
+  - name: dso:learn-in-rapid-cycles
+    color: "F97316"
+    description: "DSO principle: Learn in rapid cycles"
+
+  - name: dso:whole-authentic-creative
+    color: "F97316"
+    description: "DSO principle: Whole, authentic, creative"
+
+  #
+  # D) Status (simple lifecycle)
+  #
+  - name: status:triage
+    color: "FCD34D"
+    description: "New or untriaged item"
+
+  - name: status:backlog
+    color: "EAB308"
+    description: "Accepted but not actively worked"
+
+  - name: status:ready-for-experiment
+    color: "84CC16"
+    description: "Ready to start an experiment"
+
+  - name: status:experiment-running
+    color: "22C55E"
+    description: "Experiment currently running"
+
+  - name: status:review-needed
+    color: "FB923C"
+    description: "Needs review, feedback, or evaluation"
+
+  - name: status:stabilize-and-document
+    color: "14B8A6"
+    description: "Stabilize results and document learning"
+
+  - name: status:done
+    color: "16A34A"
+    description: "Completed and closed"
+
+  - name: status:parked
+    color: "9CA3AF"
+    description: "Explicitly paused"
+
+  #
+  # E) Handled by
+  #
+  - name: handled-by:agents-only
+    color: "0F766E"
+    description: "Can be handled fully by agents"
+
+  - name: handled-by:humans-only
+    color: "991B1B"
+    description: "Requires human decision or action"
+
+  - name: handled-by:humans+agents
+    color: "7C3AED"
+    description: "Joint human and agent work"
+
+  #
+  # F) Roles involved / needed
+  #
+  - name: needs:platform-lead
+    color: "64748B"
+    description: "Requires input from platform leadership"
+
+  - name: needs:bizdevops
+    color: "64748B"
+    description: "Requires BizDevOps involvement"
+
+  - name: needs:engineers
+    color: "64748B"
+    description: "Requires engineering input"
+
+  - name: needs:data-stewards
+    color: "64748B"
+    description: "Requires data stewardship input"
+
+  - name: needs:leadership
+    color: "64748B"
+    description: "Requires leadership decision or alignment"
+
+  - name: needs:stakeholder-input
+    color: "64748B"
+    description: "Requires external stakeholder input"
+
+  #
+  # G) Priority (optional)
+  #
+  - name: prio:low
+    color: "CBD5E1"
+    description: "Low priority"
+
+  - name: prio:medium
+    color: "60A5FA"
+    description: "Medium priority"
+
+  - name: prio:high
+    color: "F97316"
+    description: "High priority"
+
+  - name: prio:critical
+    color: "DC2626"
+    description: "Critical / urgent"
+``
