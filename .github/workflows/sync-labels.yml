@@ -1,0 +1,21 @@
+name: ♻️ Sync GitHub labels
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/labels.yml"
+
+permissions:
+  issues: write
+
+jobs:
+  labels:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Sync labels from labels.yml
+        uses: srealmoreno/label-sync-action@v2
+        with:
+          config-file: .github/labels.yml
