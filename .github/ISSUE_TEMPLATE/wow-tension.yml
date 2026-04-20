@@ -140,4 +140,3 @@ body:
         When: (timebox / cycle)
     validations:
       required: false
-``
