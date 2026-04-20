@@ -1,0 +1,9 @@
+blank_issues_enabled: false
+contact_links:
+  - name: "Discuss first (GitHub Discussions)"
+    url: "https://github.com/diegobohman/eda-ways_of_working/discussions"
+    about: "Use Discussions for questions; use Issues for actionable tensions & experiments."
+  - name: "Vision & scope"
+    url: "https://github.com/diegobohman/eda-ways_of_working/docs/vision.md"
+    about: "Read the vision to align on purpose and evolution phases."
+``

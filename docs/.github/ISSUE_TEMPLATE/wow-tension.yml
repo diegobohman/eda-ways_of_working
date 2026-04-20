@@ -1,0 +1,143 @@
+name: "Ways of Working Tension"
+description: "Capture a tension/friction in ED&A Ways of Working and drive co-creation via experiments."
+title: "[WoW Tension]: "
+labels:
+  - "wow:tension"
+  - "status:triage"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for raising a Ways of Working tension.  
+        
+        **Working protocol**
+        - Keep the **main tension description** in the **Issue body** (editable over time).
+        - Use **comments for handoffs** between humans and agents (what to do next + what to report back).
+        - Prefer **small experiments** over big-bang redesign.
+
+  - type: checkboxes
+    id: duplicate_check
+    attributes:
+      label: "Pre-check"
+      description: "Help reduce duplicates and keep tensions coherent."
+      options:
+        - label: "I searched existing issues for similar tensions"
+          required: true
+
+  - type: textarea
+    id: tension_statement
+    attributes:
+      label: "Tension statement (main description)"
+      description: "What is not working / confusing / causing friction? Write it as a clear statement."
+      placeholder: "Example: Prioritization decisions are unclear across teams, causing rework and conflicting commitments."
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: "Context & where it shows up"
+      description: "Where/when do we see this? Include meeting names, decision points, workflows, or artifacts."
+      placeholder: "Example: In weekly platform leadership sync and demand intake discussions; impacts sprint commitments."
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: "Evidence / symptoms"
+      description: "What did we observe? Include concrete examples, links, screenshots, or quotes (as appropriate)."
+      placeholder: "- Example 1...\n- Example 2...\n(links optional)"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: "Area"
+      description: "Which part of Ways of Working does this tension primarily relate to?"
+      options:
+        - "Decision making"
+        - "Prioritization & demand intake"
+        - "Strategic priorities / outcomes"
+        - "Execution tracking & adjustment"
+        - "Meetings & cadences"
+        - "Roles & responsibilities"
+        - "KPI / measurement"
+        - "Cross-team collaboration"
+        - "Tooling / documentation"
+        - "Other"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: urgency
+    attributes:
+      label: "Urgency"
+      description: "How urgent is it to address this now?"
+      options:
+        - "Low (collect for later)"
+        - "Medium (address in next cycle)"
+        - "High (blocking / recurring cost)"
+        - "Critical (risk / severe impact)"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: dso_lens
+    attributes:
+      label: "DSO lens (optional)"
+      description: "Which DSO principle(s) might be most relevant?"
+      options:
+        - "Focus (mission & outcomes)"
+        - "Collaborate (network of teams)"
+        - "Co-create (reimagine system)"
+        - "Evolve (rapid cycles)"
+        - "Be our best (authentic, inclusive)"
+        - "Unsure / not applicable"
+    validations:
+      required: false
+
+  - type: textarea
+    id: desired_outcome
+    attributes:
+      label: "Desired outcome"
+      description: "If this tension were improved, what would be different / better?"
+      placeholder: "Example: Clear prioritization criteria + transparent decision record so teams can align quickly."
+    validations:
+      required: true
+
+  - type: textarea
+    id: experiment_idea
+    attributes:
+      label: "Candidate experiment (optional)"
+      description: "If you have an idea, propose a small, time-bound experiment to try."
+      placeholder: "Hypothesis, steps, duration, how we’ll know it helped..."
+    validations:
+      required: false
+
+  - type: dropdown
+    id: handled_by
+    attributes:
+      label: "Handled by (initial guess)"
+      description: "This can be changed later via labels."
+      options:
+        - "Humans + Agents"
+        - "Humans only"
+        - "Agents only"
+    validations:
+      required: true
+
+  - type: textarea
+    id: next_handoff
+    attributes:
+      label: "Next handoff (to be used in comments)"
+      description: "Leave a short instruction for the next actor. Agents/humans should copy this into a comment and refine."
+      placeholder: |
+        Who: (role/name)
+        Do: (what action)
+        Report back: (what to comment)
+        When: (timebox / cycle)
+    validations:
+      required: false
+``
