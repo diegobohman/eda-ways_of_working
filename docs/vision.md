@@ -19,7 +19,18 @@ Our ways of working should follow the DSO (Dynamic Shared Ownership) principles:
 - ... by executing, exploring and learning in rapid cycles
 - Enabled by being our whole authentic selves in creative mindset
 
+## Context information outside this repository
+### Dynamic Shared Ownership (DSO)
 More details about DSO can be found here: https://bayergroup.sharepoint.com/:p:/r/sites/034176/Shared%20Documents/Bayer_Dynamic%20Shared%20Ownership%20Guide_Executive%20Summary%20SHARING%20VERSION.pptx?d=w681982e73a8a4f89ab90d2fe39b0f46a&csf=1&web=1&e=zErZbo
+### ED&A Platform Steering
+Here you can find more information on some of our meetings, processes and KPIs
+#### KPI Playbook
+https://wiki.d1nxt.int.bayer.com/wiki/Processes%2FPlatform%20Steering%2FKPI%20Playbook
+#### Workpath Playbook
+https://wiki.d1nxt.int.bayer.com/wiki/Processes%2FPlatform%20Steering%2FWorkpath%20Playbook
+#### Steering Meetings
+https://wiki.d1nxt.int.bayer.com/wiki/Processes%2FPlatform%20Steering%2FSteering%20Meetings
+More details on "All Units Meeting": https://wiki.d1nxt.int.bayer.com/wiki/Processes%2FPlatform%20Steering%2FAll%20Units%20Meeting
 
 ## Users / stakeholders
 - Diego Bohman as BizDevOps Lead and DSO coach
