@@ -15,17 +15,10 @@ status: "proposed" # proposed | running | completed | stopped
 
 What we expect to happen and why. Keep it testable and specific.
 
-## Success criteria
+## How will we know we are successful
 
 - Primary (quantitative): e.g. metric name + target + time window
 - Secondary (qualitative): e.g. stakeholder sentiment, observed behaviors
-
-## Measurement plan
-
-- Metrics: list metrics and numeric targets
-- Data sources: where the data will come from
-- Frequency: how often measurements are taken
-- Owner: who is responsible for collecting/reporting
 
 ## Experiment steps (high-level)
 
@@ -37,7 +30,6 @@ What we expect to happen and why. Keep it testable and specific.
 
 - Owner: <name> — overall accountability
 - Facilitator: <name> — runs sessions/meetings
-- Data lead: <name> — collects and reports metrics
 - Participants: <names/roles>
 
 ## Facilitation checklist
@@ -61,12 +53,6 @@ Timebox: <start date> → <end date> (duration)
 Report back: Comment on this issue with observations, measurements and one-line recommendation by <date>
 
 ---
-
-## Data collection template
-
-| Date | Metric | Value | Notes | Reporter |
-|------|--------|-------:|-------|---------|
-|      |        |        |       |         |
 
 ## Risks & mitigations
 
