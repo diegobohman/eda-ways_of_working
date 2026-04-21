@@ -5,7 +5,7 @@ argument-hint: "Paste experiment observations (comment content) and proposed doc
 tools: ["search/codebase", "search/usages", "web/fetch"]
 handoffs:
   - label: "Iterate experiment"
-    agent: "WoW Engineer"
+    agent: "WoW Architect"
     prompt: "Adjust experiment design based on review feedback and run another iteration."
     send: false
   - label: "Stabilize & milestone"
