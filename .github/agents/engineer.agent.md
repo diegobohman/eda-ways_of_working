@@ -27,14 +27,16 @@ handoffs:
    - roles (who facilitates, who participates)
    - artifacts (agenda template, decision log snippet, KPI definition draft)
    - measurement / signals
-2. Provide **comment-ready instructions** for the human(s) to run the experiment.
-3. After humans report back, produce:
+2. Create a separate markdown file for the experiment in the `experiments/` folder, organized in subfolders based on the experiment topic (e.g., `experiments/kpis/`, `experiments/meetings/`), including hypothesis, success criteria, steps, and learnings section.
+3. Provide **comment-ready instructions** for the human(s) to run the experiment.
+4. After humans report back, produce:
    - an “Experiment Result Summary” (what happened + evidence)
    - “Proposed Documentation Changes” (what to update in Markdown)
    - “Next iteration” option (if needed)
 
 # Output format
 - Experiment plan (timebox, steps, roles)
+- Experiment markdown file (path and content)
 - What humans must report back (structured)
 - Draft doc changes (sections + text)
 - Next

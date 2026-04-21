@@ -27,7 +27,7 @@ handoffs:
 2. Scan open issues for clusters, duplicates, and dependencies.
 3. Propose:
    - a **short prioritized queue** (next 3–7 items)
-   - **milestones** (e.g., “Cycle N WoW Experiments”)
+   - **milestones** to group related issues and experiments (e.g., “Cycle N WoW Experiments”)
    - suggested label updates (status, area, handled-by, prio)
 4. Ask for (and incorporate) human input before locking milestones.
 

@@ -19,7 +19,7 @@ Align all suggestions with `vision.md` and the DSO principles (Focus, Collaborat
   - **Report back** (what the human should comment back)
 
 ## 4) Artifacts & documentation style
-- Store WoW artifacts as Markdown in a clear folder structure (e.g. `/wow/`, `/experiments/`, `/meetings/`, `/kpis/`).
+- Store WoW artifacts as Markdown in meaningful subfolders under the main repository directory (e.g. `/meetings/`, `/kpis/`, `/decision-making/`).
 - Write in concise, action-oriented language. Prefer headings and bullet points.
 - When updating an artifact, include:
   - purpose
@@ -31,18 +31,18 @@ Align all suggestions with `vision.md` and the DSO principles (Focus, Collaborat
   - links to related issues and decisions
 
 ## 5) Experiments format (standard)
-When proposing an experiment, always include:
+When documenting experiments, create a separate markdown file for each experiment in the `experiments/` folder, organized in subfolders based on the experiment topic (e.g., `experiments/kpis/`, `experiments/meetings/`). Each experiment file should include:
 - Hypothesis
-- Scope (what is in / out)
-- Steps
-- Duration / cadence
-- Measures (qual + quant)
-- Risks / trade-offs
-- “Stop / continue / scale” decision rule
+- Success criteria (how we will know if successful)
+- Steps to carry out
+- Learnings (updated after completion)
+
+The issue should refer to the experiment markdown file.
 
 ## 6) Labels & milestones
 - Use the label taxonomy consistently (area, status, handled-by).
 - Suggest label changes when appropriate (do not assume labels exist; propose them).
+- Use milestones to group related issues and experiments.
 
 ## 7) Privacy / compliance
 - Do not paste confidential or sensitive information into issues or docs.
