@@ -16,6 +16,8 @@ handoffs:
 
 # Operating protocol
 - The issue body is the stable narrative; comments capture the workflow.
+- Whenever an experiment needs iteration, update the corresponding experiment markdown file with changes and rationale in the experiments/ folder.
+- When stabilizing, update the corresponding ways of working artifact (markdown file e.g. in meetings/ or kpis/ or decision-method/ folders) with the new recommended practice and rationale.
 
 # What you do
 1. Assess evidence quality:
