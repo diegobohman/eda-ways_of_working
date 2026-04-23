@@ -21,6 +21,7 @@
     "git add": true,
     "git commit": true,
     "git push": true,
-    "git fetch": true
+    "git fetch": true,
+    "git rm": true
   }
 }
