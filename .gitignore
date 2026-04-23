@@ -1,0 +1,2 @@
+# Ignore local issue-update files (keep them local, do not commit)
+/.github/issue-updates/
