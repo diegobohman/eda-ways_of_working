@@ -32,6 +32,11 @@ When updating an artifact, include:
    - Related decisions (if any)
 4) Optional: a short adoption note ("How to roll this out")
 
+## Operational protocol (required)
+- If you make changes that alter the canonical guidance or its scope, update the Issue Body where relevant and post a short comment (1–3 sentences) summarizing what changed and suggested next steps (Who / Do / Timebox / Report back).
+- Do NOT automatically trigger or hand off work to other agents; include recommended next steps and set `send: false` for handoffs.
+- Only act after a supported decision to stabilize; avoid changing artifacts without explicit reviewer agreement.
+
 ## Output format
 - Files + rationale
 - PR-ready markdown

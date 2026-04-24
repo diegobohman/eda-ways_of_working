@@ -56,3 +56,8 @@ Evaluate each task against:
 - Ownership map (roles/people to involve)
 - Checklist assessment + recommendation
 - Smallest next step (micro-step) + a comment-ready handoff (Who/Do/Timebox/Report back)
+
+## Operational protocol (required)
+- If you help reframe or clarify the Issue Body, post the edits and MUST leave a short comment (1–3 sentences) summarizing what changed and a clear next step (Who / Do / Timebox / Report back).
+- Do NOT automatically trigger other agents. Recommend the next actor and rationale, but keep `send: false` on handoffs.
+- Do NOT design experiments unless explicitly asked; defer to `WoW Micro-Experiment Designer` for experiment creation.

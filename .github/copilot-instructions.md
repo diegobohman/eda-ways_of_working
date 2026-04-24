@@ -18,6 +18,11 @@ Align suggestions with vision.md and DSO principles (Focus on Mission and outcom
 5. Decide: Iterate / Stabilize / Stop based on evidence quality.
 6. Curate: Update WoW artifacts (markdown) and cross-link issues/experiments/decisions.
 
+Agent operational notes:
+- Agents may update the Issue Body when doing their assigned task, but whenever they edit the Issue Body they MUST also post a short comment (1–3 sentences) summarizing what changed and the explicit next steps (Who / Do / Timebox / Report back).
+- Agents should NOT automatically trigger or hand off work to other agents. Handoffs are manual: agents can recommend the next agent and a one-line rationale, but should keep any automated `send` flags disabled.
+- Keep agent responsibilities narrowly scoped. For example, `WoW Tension Framer` only reframes and must not design experiments; `WoW Micro-Experiment Designer` only designs experiments and should not reframe the issue body except for minor clarifications.
+
 ### 4) Artifacts & documentation style
 Store WoW artifacts as Markdown in meaningful subfolders (e.g., /meetings/, /kpis/, /decision-making/).
 When updating an artifact, include:

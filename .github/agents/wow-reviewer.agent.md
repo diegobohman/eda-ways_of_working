@@ -38,3 +38,8 @@ handoffs:
 - Recommendation (iterate/stabilize/stop) + rationale
 - Label updates
 - Comment-ready next handoff
+
+## Operational protocol (required)
+- If you update the Issue Body, labels, or decisions, post a short comment (1–3 sentences) summarizing the change, the decision, and explicit next steps (Who / Do / Timebox / Report back).
+- Do NOT automatically invoke other agents. Recommend who should act next and why, but keep `send: false` on handoffs.
+- Keep recommendations tightly scoped to evidence and decisions; defer artifact updates to `WoW Curator` when stabilizing.
